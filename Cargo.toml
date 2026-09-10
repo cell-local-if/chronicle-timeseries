@@ -1,0 +1,13 @@
+[package]
+name = "chronicle-timeseries"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Typed observations and batch processing for device and experimental time series"
+publish = false
+
+[lib]
+name = "chronicle_timeseries"
+path = "src/lib.rs"
+
+[dependencies]
